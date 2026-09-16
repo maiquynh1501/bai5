@@ -111,6 +111,76 @@ class DBHelper(context: Context) :
             null,
             user5
         )
+
+        // Người dùng 6
+        val user6 = ContentValues()
+
+        user6.put("username", "ND006")
+        user6.put("password", "06062005")
+        user6.put("fullname", "Đặng Văn F")
+        user6.put("dob", "06/06/2005")
+
+        db.insert(
+            "User",
+            null,
+            user6
+        )
+
+        // Người dùng 7
+        val user7 = ContentValues()
+
+        user7.put("username", "ND007")
+        user7.put("password", "07072005")
+        user7.put("fullname", "Bùi Thị G")
+        user7.put("dob", "07/07/2005")
+
+        db.insert(
+            "User",
+            null,
+            user7
+        )
+
+        // Người dùng 8
+        val user8 = ContentValues()
+
+        user8.put("username", "ND008")
+        user8.put("password", "08082005")
+        user8.put("fullname", "Đỗ Văn H")
+        user8.put("dob", "08/08/2005")
+
+        db.insert(
+            "User",
+            null,
+            user8
+        )
+
+        // Người dùng 9
+        val user9 = ContentValues()
+
+        user9.put("username", "ND009")
+        user9.put("password", "09092005")
+        user9.put("fullname", "Vũ Thị I")
+        user9.put("dob", "09/09/2005")
+
+        db.insert(
+            "User",
+            null,
+            user9
+        )
+
+        // Người dùng 10
+        val user10 = ContentValues()
+
+        user10.put("username", "ND010")
+        user10.put("password", "10102005")
+        user10.put("fullname", "Phan Văn K")
+        user10.put("dob", "10/10/2005")
+
+        db.insert(
+            "User",
+            null,
+            user10
+        )
     }
 
     // Bắt buộc vì SQLiteOpenHelper yêu cầu
