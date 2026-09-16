@@ -259,7 +259,7 @@ class UserhomeAct : AppCompatActivity() {
                                                 )
                                             )
 
-                                        // Gọi delete(id) đúng UML
+                                        // Gọi delete(id)
                                         val success =
                                             userDAO.delete(id)
 
